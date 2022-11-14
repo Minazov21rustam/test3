@@ -53,7 +53,7 @@ function sendMessage(){
     let text = textName.value;
 
     if(!author || !text){
-       alert("Не указан автор или текст сообщения.");
+       alert("текст сообщения.");
        return;
     }
 
