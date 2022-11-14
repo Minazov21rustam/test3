@@ -11,8 +11,8 @@ class Message {
     }
 
     show(){
-        let historyElem = document.getElementById('history');
-        historyElem.innerHTML = historyElem.innerHTML + this.toHtml();
+        let historyName = document.getElementById('history');
+        historyName.innerHTML = historyName.innerHTML + this.toHtml();
     }
 
     toHtml(){
@@ -30,8 +30,8 @@ class Messenger{
     }
 
     show_history(){
-        let historyElem = document.getElementById('history');
-        historyElem.innerHTML = '';
+        let historyName = document.getElementById('history');
+        historyName.innerHTML = '';
         this.messages.forEach(message => {
             message.show();
         });
