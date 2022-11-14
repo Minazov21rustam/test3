@@ -52,11 +52,6 @@ function sendMessage(){
     let author = autorName.value;
     let text = textName.value;
 
-    if(!author || !text){
-       alert("текст сообщения.");
-       return;
-    }
-
     messenger.send(author, text);
 
     autorName.value = '';
