@@ -255,6 +255,11 @@ img {
   display: flex;
   justify-content: space-between;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  display: none;
+  margin: 0;
+}
 
 .CurInp {
   width: 124px;
